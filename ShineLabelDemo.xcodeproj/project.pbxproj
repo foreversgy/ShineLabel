@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B2E2951BA5D97F00E09397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2E2941BA5D97F00E09397 /* AppDelegate.swift */; };
+		19B2E2971BA5D97F00E09397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2E2961BA5D97F00E09397 /* ViewController.swift */; };
+		19B2E29A1BA5D97F00E09397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B2E2981BA5D97F00E09397 /* Main.storyboard */; };
+		19B2E29C1BA5D97F00E09397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B2E29B1BA5D97F00E09397 /* Assets.xcassets */; };
+		19B2E29F1BA5D97F00E09397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B2E29D1BA5D97F00E09397 /* LaunchScreen.storyboard */; };
+		19B2E2AA1BA5D97F00E09397 /* ShineLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2E2A91BA5D97F00E09397 /* ShineLabelDemoTests.swift */; };
+		19B2E2B51BA5D97F00E09397 /* ShineLabelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2E2B41BA5D97F00E09397 /* ShineLabelDemoUITests.swift */; };
+		19B2E2C31BA5D9C200E09397 /* ShineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2E2C21BA5D9C200E09397 /* ShineLabel.swift */; };
+		19B2E2C51BA5DCEE00E09397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B2E2C41BA5DCEE00E09397 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B2E2A61BA5D97F00E09397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B2E2891BA5D97F00E09397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B2E2901BA5D97F00E09397;
+			remoteInfo = ShineLabelDemo;
+		};
+		19B2E2B11BA5D97F00E09397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B2E2891BA5D97F00E09397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B2E2901BA5D97F00E09397;
+			remoteInfo = ShineLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B2E2911BA5D97F00E09397 /* ShineLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B2E2941BA5D97F00E09397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19B2E2961BA5D97F00E09397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19B2E2991BA5D97F00E09397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B2E29B1BA5D97F00E09397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B2E29E1BA5D97F00E09397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B2E2A01BA5D97F00E09397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B2E2A51BA5D97F00E09397 /* ShineLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B2E2A91BA5D97F00E09397 /* ShineLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineLabelDemoTests.swift; sourceTree = "<group>"; };
+		19B2E2AB1BA5D97F00E09397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B2E2B01BA5D97F00E09397 /* ShineLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B2E2B41BA5D97F00E09397 /* ShineLabelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineLabelDemoUITests.swift; sourceTree = "<group>"; };
+		19B2E2B61BA5D97F00E09397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B2E2C21BA5D9C200E09397 /* ShineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineLabel.swift; sourceTree = "<group>"; };
+		19B2E2C41BA5DCEE00E09397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B2E28E1BA5D97F00E09397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2E2C51BA5DCEE00E09397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2A21BA5D97F00E09397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2AD1BA5D97F00E09397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B2E2881BA5D97F00E09397 = {
+			isa = PBXGroup;
+			children = (
+				19B2E2C41BA5DCEE00E09397 /* Foundation.framework */,
+				19B2E2931BA5D97F00E09397 /* ShineLabelDemo */,
+				19B2E2A81BA5D97F00E09397 /* ShineLabelDemoTests */,
+				19B2E2B31BA5D97F00E09397 /* ShineLabelDemoUITests */,
+				19B2E2921BA5D97F00E09397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B2E2921BA5D97F00E09397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B2E2911BA5D97F00E09397 /* ShineLabelDemo.app */,
+				19B2E2A51BA5D97F00E09397 /* ShineLabelDemoTests.xctest */,
+				19B2E2B01BA5D97F00E09397 /* ShineLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B2E2931BA5D97F00E09397 /* ShineLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				19B2E2941BA5D97F00E09397 /* AppDelegate.swift */,
+				19B2E2961BA5D97F00E09397 /* ViewController.swift */,
+				19B2E2981BA5D97F00E09397 /* Main.storyboard */,
+				19B2E29B1BA5D97F00E09397 /* Assets.xcassets */,
+				19B2E29D1BA5D97F00E09397 /* LaunchScreen.storyboard */,
+				19B2E2A01BA5D97F00E09397 /* Info.plist */,
+				19B2E2C21BA5D9C200E09397 /* ShineLabel.swift */,
+			);
+			path = ShineLabelDemo;
+			sourceTree = "<group>";
+		};
+		19B2E2A81BA5D97F00E09397 /* ShineLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B2E2A91BA5D97F00E09397 /* ShineLabelDemoTests.swift */,
+				19B2E2AB1BA5D97F00E09397 /* Info.plist */,
+			);
+			path = ShineLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		19B2E2B31BA5D97F00E09397 /* ShineLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B2E2B41BA5D97F00E09397 /* ShineLabelDemoUITests.swift */,
+				19B2E2B61BA5D97F00E09397 /* Info.plist */,
+			);
+			path = ShineLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B2E2901BA5D97F00E09397 /* ShineLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B2E2B91BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemo" */;
+			buildPhases = (
+				19B2E28D1BA5D97F00E09397 /* Sources */,
+				19B2E28E1BA5D97F00E09397 /* Frameworks */,
+				19B2E28F1BA5D97F00E09397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShineLabelDemo;
+			productName = ShineLabelDemo;
+			productReference = 19B2E2911BA5D97F00E09397 /* ShineLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B2E2A41BA5D97F00E09397 /* ShineLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B2E2BC1BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemoTests" */;
+			buildPhases = (
+				19B2E2A11BA5D97F00E09397 /* Sources */,
+				19B2E2A21BA5D97F00E09397 /* Frameworks */,
+				19B2E2A31BA5D97F00E09397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B2E2A71BA5D97F00E09397 /* PBXTargetDependency */,
+			);
+			name = ShineLabelDemoTests;
+			productName = ShineLabelDemoTests;
+			productReference = 19B2E2A51BA5D97F00E09397 /* ShineLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B2E2AF1BA5D97F00E09397 /* ShineLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B2E2BF1BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemoUITests" */;
+			buildPhases = (
+				19B2E2AC1BA5D97F00E09397 /* Sources */,
+				19B2E2AD1BA5D97F00E09397 /* Frameworks */,
+				19B2E2AE1BA5D97F00E09397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B2E2B21BA5D97F00E09397 /* PBXTargetDependency */,
+			);
+			name = ShineLabelDemoUITests;
+			productName = ShineLabelDemoUITests;
+			productReference = 19B2E2B01BA5D97F00E09397 /* ShineLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B2E2891BA5D97F00E09397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = guoyan;
+				TargetAttributes = {
+					19B2E2901BA5D97F00E09397 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					19B2E2A41BA5D97F00E09397 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 19B2E2901BA5D97F00E09397;
+					};
+					19B2E2AF1BA5D97F00E09397 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 19B2E2901BA5D97F00E09397;
+					};
+				};
+			};
+			buildConfigurationList = 19B2E28C1BA5D97F00E09397 /* Build configuration list for PBXProject "ShineLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B2E2881BA5D97F00E09397;
+			productRefGroup = 19B2E2921BA5D97F00E09397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B2E2901BA5D97F00E09397 /* ShineLabelDemo */,
+				19B2E2A41BA5D97F00E09397 /* ShineLabelDemoTests */,
+				19B2E2AF1BA5D97F00E09397 /* ShineLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B2E28F1BA5D97F00E09397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2E29F1BA5D97F00E09397 /* LaunchScreen.storyboard in Resources */,
+				19B2E29C1BA5D97F00E09397 /* Assets.xcassets in Resources */,
+				19B2E29A1BA5D97F00E09397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2A31BA5D97F00E09397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2AE1BA5D97F00E09397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B2E28D1BA5D97F00E09397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2E2971BA5D97F00E09397 /* ViewController.swift in Sources */,
+				19B2E2C31BA5D9C200E09397 /* ShineLabel.swift in Sources */,
+				19B2E2951BA5D97F00E09397 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2A11BA5D97F00E09397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2E2AA1BA5D97F00E09397 /* ShineLabelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B2E2AC1BA5D97F00E09397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2E2B51BA5D97F00E09397 /* ShineLabelDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B2E2A71BA5D97F00E09397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B2E2901BA5D97F00E09397 /* ShineLabelDemo */;
+			targetProxy = 19B2E2A61BA5D97F00E09397 /* PBXContainerItemProxy */;
+		};
+		19B2E2B21BA5D97F00E09397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B2E2901BA5D97F00E09397 /* ShineLabelDemo */;
+			targetProxy = 19B2E2B11BA5D97F00E09397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B2E2981BA5D97F00E09397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B2E2991BA5D97F00E09397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B2E29D1BA5D97F00E09397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B2E29E1BA5D97F00E09397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B2E2B71BA5D97F00E09397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B2E2B81BA5D97F00E09397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B2E2BA1BA5D97F00E09397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShineLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19B2E2BB1BA5D97F00E09397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShineLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19B2E2BD1BA5D97F00E09397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShineLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineLabelDemo.app/ShineLabelDemo";
+			};
+			name = Debug;
+		};
+		19B2E2BE1BA5D97F00E09397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShineLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineLabelDemo.app/ShineLabelDemo";
+			};
+			name = Release;
+		};
+		19B2E2C01BA5D97F00E09397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShineLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShineLabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19B2E2C11BA5D97F00E09397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShineLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.share.deom.ShineLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShineLabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B2E28C1BA5D97F00E09397 /* Build configuration list for PBXProject "ShineLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B2E2B71BA5D97F00E09397 /* Debug */,
+				19B2E2B81BA5D97F00E09397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B2E2B91BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B2E2BA1BA5D97F00E09397 /* Debug */,
+				19B2E2BB1BA5D97F00E09397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19B2E2BC1BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B2E2BD1BA5D97F00E09397 /* Debug */,
+				19B2E2BE1BA5D97F00E09397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19B2E2BF1BA5D97F00E09397 /* Build configuration list for PBXNativeTarget "ShineLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B2E2C01BA5D97F00E09397 /* Debug */,
+				19B2E2C11BA5D97F00E09397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B2E2891BA5D97F00E09397 /* Project object */;
+}
