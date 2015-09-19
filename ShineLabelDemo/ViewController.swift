@@ -23,14 +23,16 @@ class ViewController: UIViewController {
         label.textColor=UIColor.orangeColor()
         label.sizeToFit()
         self.view.addSubview(label)
+        
+        
+        let gesture=UITapGestureRecognizer(target: self, action: "Animation")
+        self.view.addGestureRecognizer(gesture)
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        
+    func Animation(){
         label.startAnimation()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
