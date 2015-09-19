@@ -16,27 +16,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
         label.center=self.view.center
         label.setAttriubteText("For something this complicated, it’s really hard to design products by focus groups. A lot of times, people don’t know what they want until you show it to them.")
         label.numberOfLines=0
-//        label.font=    label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:24.0];
         label.font=UIFont(name: "HelveticaNeue-Light", size: 24.0)
-//        label.lineBreakMode=NSLineBreakMode.ByWordWrapping
         label.textColor=UIColor.orangeColor()
         label.sizeToFit()
-//        label.startAnimation()
         self.view.addSubview(label)
-        
-        
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
         
         label.startAnimation()
-        
-        
     }
 
     override func didReceiveMemoryWarning() {

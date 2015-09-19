@@ -11,7 +11,7 @@ import UIKit
 class ShineLabel: UILabel {
 
     var shineDuration:CGFloat=2.5
-    var fadeDuration:CGFloat=2.5
+    
     var displayLink:CADisplayLink!
     
     var chracterDuration=[CGFloat]()
@@ -25,7 +25,6 @@ class ShineLabel: UILabel {
     var beginTime=CACurrentMediaTime()
     
     var endTime=CACurrentMediaTime()
-    
     
     override init(frame: CGRect) {
         
@@ -44,18 +43,19 @@ class ShineLabel: UILabel {
         
         attributedText=attributeString
         
-        
         for _ in 1 ... attributeString.length{
         
-             let random = arc4random_uniform(UInt32(shineDuration*200))
+             let random = arc4random_uniform(UInt32(shineDuration*50.0))
             
-            let delayFloat = CGFloat(random)/300.0
-            
-            let remainFloat = arc4random_uniform(UInt32(self.shineDuration - delayFloat)*10)
+            let delayFloat = CGFloat(random)/(100.0)
             
             chracterDelay.append(delayFloat)
             
-            chracterDuration.append(CGFloat (self.shineDuration - delayFloat))
+            let remain = arc4random_uniform(UInt32(( self.shineDuration - delayFloat)*100.0))
+            
+            let remainFloat = CGFloat(remain)/100.0
+            
+            chracterDuration.append(remainFloat)
         }
         
         configure()
@@ -68,8 +68,8 @@ class ShineLabel: UILabel {
         displayLink.paused=true
     }
     
-    
     func updateAttribute()->(){
+        
 
         let nowTime=CACurrentMediaTime()
         
@@ -80,10 +80,16 @@ class ShineLabel: UILabel {
                 if let color = value as? UIColor {
                     
                     let apla = CGColorGetAlpha(color.CGColor)
-                 
-                    let shouldUpdateApla = (!self.isShow && apla < 1) || (CGFloat(nowTime - self.beginTime) > self.chracterDelay[index-1])&&(nowTime < self.endTime)
+   
+                    let shouldUpdateApla = (!self.isShow && apla < 1) || (CGFloat(nowTime - self.beginTime) > self.chracterDelay[index-1])
                     
                     if !shouldUpdateApla   {
+                        return
+                    }
+                    
+                    if (CGFloat(nowTime - self.beginTime) > (self.chracterDelay[index-1]) + self.chracterDuration[index-1] ){
+
+                        //防止动画太长，出现文字折行动画
                         return
                     }
                     
@@ -98,16 +104,11 @@ class ShineLabel: UILabel {
             })
         }
         self.attributedText=self.attributeString
-        
         if nowTime > self.endTime{
             self.isShow=true
             self.displayLink.paused=true
         }
-        
-        
-    
     }
-    
     
     func startAnimation(){
         
